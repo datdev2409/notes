@@ -32,7 +32,7 @@ lima-rancher-desktop   Ready    control-plane,master   89d   v1.33.3+k3s1
 
 Create the Kubernetes service, then go the the Rancher Desktop -> Port Forwarding. Choose the k8s service you want to forward, then click Forward.
 
-![alt text](./images/01_rancher-port-forwarding.png)
+![alt text](./01_rancher-port-forwarding.png)
 
 The Rancher Deskop will forward the traffic from `localhost:local-port` to k8s service
-![alt text](./images/01_rancher-port-forwarding-2.png)
+![alt text](./01_rancher-port-forwarding-2.png)
